@@ -83,7 +83,7 @@ const handleSubmit = async (e) => {
     // messageDiv.innerHTML = "..."
     loader(messageDiv)
 
-    const response = await fetch('https://codexai-r1kb.onrender.com', {
+    const response = await fetch('https://codexai-1.onrender.com', {
       method: 'POST',
       headers: {
         "Content-Type": "application/json",
